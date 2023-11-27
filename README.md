@@ -62,7 +62,6 @@ Step 1 (Create our Resources)
 <p>
 Step 2 (Observe ICMP Traffic)
   
-
 </p>
 
 <p>
@@ -126,7 +125,7 @@ Step 2 (Observe ICMP Traffic)
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zMh9Hix.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -145,7 +144,7 @@ Step 3 (Observe SSH Traffic)
 
 <p>
   
-Step 4 (Observe SSH Traffic)
+Step 4 (Observe DHCP Traffic)
 
 11) Back in Wireshark, filter for SSH traffic only
 
@@ -156,4 +155,33 @@ Step 4 (Observe SSH Traffic)
   - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
 </p>
+
+
+<p>
+  
+Step 5 (Observe DNS Traffic)
+
+11) Back in Wireshark, filter for SSH traffic only
+
+12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+
+  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+
+  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+</p>
+
+
+<p>
+  
+Step 6 (Observe RDP Traffic)
+
+11) Back in Wireshark, filter for SSH traffic only
+
+12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+
+  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+
+  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+</p>
+
 <br />
