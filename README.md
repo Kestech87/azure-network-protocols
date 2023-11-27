@@ -53,7 +53,6 @@ Step 1 (Create our Resources)
 <img src="https://i.imgur.com/VPlWuFv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 4) Observe Your Virtual Network within Network Watcher
-
 </p>
 
 <br />
@@ -61,22 +60,39 @@ Step 1 (Create our Resources)
 <p>
 Step 2 (Observe ICMP Traffic)
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <p>
   
 5) Use Remote Desktop to connect to your Windows 10 Virtual Machine
 
+<img src="https://i.imgur.com/4IpzCav.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/JgbngY1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 6) Within your Windows 10 Virtual Machine, Install Wireshark
+
+<img src="https://i.imgur.com/JaUdJrX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 7) Open Wireshark and filter for ICMP traffic only
-  
+
+<img src="https://i.imgur.com/JxjJqRf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/j3Rta4P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 8) Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM
    
    - Observe ping requests and replies within WireShark
+
+<img src="https://i.imgur.com/iNG8h34.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/4dKx5Uf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
      
 9) From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
+
+<img src="https://i.imgur.com/TnWW8ds.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 10) Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 
