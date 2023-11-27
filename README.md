@@ -31,18 +31,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 
 Step 1 (Create our Resources)
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <p>
 (Create our Resources)
   
 1) Create a Resource Group
+
+<img src="https://i.imgur.com/pQcowOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 2) Create a Windows 10 Virtual Machine (VM)
     - While creating the VM, select the previously created Resource Group
     - While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+
+<img src="https://i.imgur.com/QQejDSJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 3) Create a Linux (Ubuntu) VM
     - While create the VM, select the previously created Resource Group and Vnet
+
+<img src="https://i.imgur.com/VPlWuFv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 4) Observe Your Virtual Network within Network Watcher
 
 </p>
