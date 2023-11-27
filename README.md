@@ -21,22 +21,37 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
+- Step 1 (Create our Resources)
+- Step 2 (Observe ICMP Traffic)
 - Step 3
 - Step 4
 
 <h2>Actions and Observations</h2>
 
 <p>
+
+Step 1 (Create our Resources)
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+(Create our Resources)
+  
+1) Create a Resource Group
+2) Create a Windows 10 Virtual Machine (VM)
+  - While creating the VM, select the previously created Resource Group
+  - While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+3) Create a Linux (Ubuntu) VM
+  - While create the VM, select the previously created Resource Group and Vnet
+4) Observe Your Virtual Network within Network Watcher
+
 </p>
+
 <br />
 
 <p>
+Step 2 (Observe ICMP Traffic)
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
