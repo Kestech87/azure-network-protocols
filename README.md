@@ -96,11 +96,29 @@ Step 2 (Observe ICMP Traffic)
 
 10) Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 
-    - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
-    - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+<img src="https://i.imgur.com/Bet9tYG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   
+  - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+
+<img src="https://i.imgur.com/knOTIVS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/skXmNXb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/qS6UnEy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+
     - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
-    - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
-    - Stop the ping activity
+
+<img src="https://i.imgur.com/UPhbDps.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/wGSsgnX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+
+<img src="https://i.imgur.com/GRz8hqG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  - Stop the ping activity
  
 </p>
 
