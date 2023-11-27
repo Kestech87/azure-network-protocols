@@ -118,8 +118,7 @@ Step 2 (Observe ICMP Traffic)
 
 <img src="https://i.imgur.com/GRz8hqG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-  - Stop the ping activity
- 
+  - Stop the ping activity 
 </p>
 
 <br />
