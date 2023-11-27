@@ -25,6 +25,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 2 (Observe ICMP Traffic)
 - Step 3 (Observe SSH Traffic)
 - Step 4 (Observe DHCP Traffic)
+- Step 5 (Observe DNS Traffic)
+- Step 6 (Observe RDP Traffic)
 
 <h2>Actions and Observations</h2>
 
@@ -130,6 +132,28 @@ Step 2 (Observe ICMP Traffic)
   
 Step 3 (Observe SSH Traffic)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+11) Back in Wireshark, filter for SSH traffic only
+
+12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+
+  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+
+  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
+</p>
+
+
+<p>
+  
+Step 4 (Observe SSH Traffic)
+
+11) Back in Wireshark, filter for SSH traffic only
+
+12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+
+  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+
+  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
 </p>
 <br />
