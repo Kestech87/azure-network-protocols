@@ -123,13 +123,15 @@ Step 2 (Observe ICMP Traffic)
 </p>
 
 <br />
-
 <p>
+
+Step 3 (Observe SSH Traffic)
+
 <img src="https://i.imgur.com/zMh9Hix.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-Step 3 (Observe SSH Traffic)
+
 
 11) Back in Wireshark, filter for SSH traffic only
 
