@@ -143,6 +143,8 @@ Step 3 (Observe SSH Traffic)
  
   - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
 
+<img src="https://i.imgur.com/9qSvP2I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
   - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
 </p>
