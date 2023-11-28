@@ -160,6 +160,7 @@ Step 4 (Observe DHCP Traffic)
 
 13) Back in Wireshark, filter for DHCP traffic only
 
+<img src="https://i.imgur.com/rswyBag.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 14) From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 
@@ -168,11 +169,15 @@ Step 4 (Observe DHCP Traffic)
 </p>
 
 
+
+
 <p>
   
 Step 5 (Observe DNS Traffic)
 
 15) Back in Wireshark, filter for DNS traffic only
+
+<img src="https://i.imgur.com/hjMkJnL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 16) From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 
@@ -180,15 +185,23 @@ Step 5 (Observe DNS Traffic)
 </p>
 
 
+
+
 <p>
   
 Step 6 (Observe RDP Traffic)
 
+<img src="https://i.imgur.com/ydfmJ0L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 17) Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
+
+<img src="https://i.imgur.com/KeDntNy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/z480XYR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 18) Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
 
-  - Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+  - Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted
 </p>
 
 <br />
