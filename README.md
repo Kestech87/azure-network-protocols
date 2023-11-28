@@ -137,7 +137,7 @@ Step 3 (Observe SSH Traffic)
 
 <img src="https://i.imgur.com/YqRZ8Nz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
 
 <img src="https://i.imgur.com/0CQbB5W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
@@ -146,21 +146,24 @@ Step 3 (Observe SSH Traffic)
 <img src="https://i.imgur.com/9qSvP2I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
   - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
-
 </p>
 
 
 <p>
+
+
+
+
+
   
 Step 4 (Observe DHCP Traffic)
 
-11) Back in Wireshark, filter for SSH traffic only
+13) Back in Wireshark, filter for DHCP traffic only
 
-12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
 
-  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+14) From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 
-  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+  - Observe the DHCP traffic appearing in WireShark
 
 </p>
 
@@ -169,13 +172,11 @@ Step 4 (Observe DHCP Traffic)
   
 Step 5 (Observe DNS Traffic)
 
-11) Back in Wireshark, filter for SSH traffic only
+15) Back in Wireshark, filter for DNS traffic only
 
-12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+16) From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 
-  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
-
-  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+  - Observe the DNS traffic being show in WireShark
 </p>
 
 
@@ -183,13 +184,11 @@ Step 5 (Observe DNS Traffic)
   
 Step 6 (Observe RDP Traffic)
 
-11) Back in Wireshark, filter for SSH traffic only
+17) Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 
-12) From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private      IP address)
+18) Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
 
-  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
-
-  - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+  - Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 </p>
 
 <br />
