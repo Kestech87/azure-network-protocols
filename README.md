@@ -160,7 +160,7 @@ Step 4 (Observe DHCP Traffic)
 
 13) Back in Wireshark, filter for DHCP traffic only
 
-<img src="https://i.imgur.com/rswyBag.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9DWoyET.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 14) From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 
