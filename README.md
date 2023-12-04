@@ -117,7 +117,7 @@ Step 2 (Observe ICMP Traffic)
 
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 
-<img src="https://i.imgur.com/GRz8hqG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lWdM2x8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
   - Stop the ping activity 
 </p>
