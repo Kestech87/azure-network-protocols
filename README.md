@@ -102,7 +102,7 @@ Step 2 (Observe ICMP Traffic)
 
 10) Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 
-<img src="https://i.imgur.com/Bet9tYG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LN1WQUN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
    
   - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 
