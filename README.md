@@ -79,7 +79,7 @@ Step 2 (Observe ICMP Traffic)
 
 6) Within your Windows 10 Virtual Machine, Install Wireshark
 
-<img src="https://i.imgur.com/oRuufh2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/i9MpARr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 7) Open Wireshark and filter for ICMP traffic only
 
@@ -165,7 +165,7 @@ Step 4 (Observe DHCP Traffic)
 
 13) Back in Wireshark, filter for DHCP traffic only
 
-<img src="https://i.imgur.com/Td6EPeE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a6EVQ7Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 14) From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 
@@ -182,7 +182,7 @@ Step 5 (Observe DNS Traffic)
 
 15) Back in Wireshark, filter for DNS traffic only
 
-<img src="https://i.imgur.com/RoBh49h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dZ82pmw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 16) From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 
