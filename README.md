@@ -79,7 +79,7 @@ Step 2 (Observe ICMP Traffic)
 
 6) Within your Windows 10 Virtual Machine, Install Wireshark
 
-<img src="https://i.imgur.com/i9MpARr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BgkjmSJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 7) Open Wireshark and filter for ICMP traffic only
 
@@ -106,11 +106,11 @@ Step 2 (Observe ICMP Traffic)
    
   - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 
-<img src="https://i.imgur.com/knOTIVS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T9Aqm6b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/oXAc09Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/qS6UnEy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oaXTJrA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
 
@@ -118,7 +118,7 @@ Step 2 (Observe ICMP Traffic)
 
 <img src="https://i.imgur.com/5c2oVst.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/wGSsgnX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gtlhn9Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 
@@ -165,7 +165,7 @@ Step 4 (Observe DHCP Traffic)
 
 13) Back in Wireshark, filter for DHCP traffic only
 
-<img src="https://i.imgur.com/a6EVQ7Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mb61riu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 14) From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 
@@ -182,7 +182,7 @@ Step 5 (Observe DNS Traffic)
 
 15) Back in Wireshark, filter for DNS traffic only
 
-<img src="https://i.imgur.com/dZ82pmw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2pDFjIQ.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 16) From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 
